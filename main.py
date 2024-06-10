@@ -29,7 +29,7 @@ class InstructionDialog(QDialog):
     def __init__(self, game, on_start_game):
         super().__init__()
         self.setWindowTitle('Game Instructions')
-        self.setFixedSize(400, 400)
+        self.setFixedSize(400, 450)
         self.game = game
         self.on_start_game = on_start_game
         self.initUI()
